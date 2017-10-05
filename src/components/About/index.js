@@ -10,8 +10,12 @@ const About = props => (
     </div>
 );
 
-About.PropTypes = {
-    className: PropTypes.object
+About.propTypes = {
+    className: PropTypes.string
+};
+
+About.defaultProps = {
+    className: ''
 };
 
 export default About;

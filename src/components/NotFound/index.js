@@ -12,8 +12,12 @@ const NotFound = props => (
     </div>
 );
 
-NotFound.PropTypes = {
-    className: PropTypes.object
+NotFound.propTypes = {
+    className: PropTypes.string
+};
+
+NotFound.defaultProps = {
+    className: ''
 };
 
 export default NotFound;
